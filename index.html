@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instal Wod-Kan</title>
+    <link rel="icon" type="image/x-icon" href="/img/excavator_favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/7c9ea8b082.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="dist/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <section id="home" class="home">
+        <div class="container-fluid">
+            <!-- <div class="hero-shadow"></div> -->
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-faucet-drip fa-fade text-primary"></i>
+                Instal<span class="text-primary"> Wod-Kan</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link px-lg-3 active" href="#home">Home</a>
+                    <a class="nav-link px-lg-3" href="#aboutme">O mnie</a>
+                    <a class="nav-link px-lg-3" href="#services">Zakres Usług</a>
+                    <a class="nav-link px-lg-3" href="#projects">Galeria</a>
+                    <a class="nav-link px-lg-3 " href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="aboutme" class="aboutme py-5">
+            <div class="container pb-5">
+                <h1 class="text-center text-lg-start">O mnie</h1>
+                <div class="row m-0 justify-content-center ">
+                    <div class="col-12 col-lg-3 mb-4 mb-lg-0 aboutme-logo-img"></div>
+                    <div class="col-12 col-lg-9 aboutme-content">
+                        <p class="ms-lg-3">Nazywam się Łukasz Zawadka. Z zawodu jestem inżynierem budownictwa.
+                            Skończyłem szkołę w tym
+                            kierunku i uzyskałem dyplom. Od kilku lat prowadzę własną działalność gospodarczą i świadczę
+                            kompleksowe usługi związane z przyłączami sieci wodno-kanaliazyjnych. W przeszłości
+                            pracowałem dla innych firm, ale od ponad 15 lat jestem w tej branży. Cechują mnie
+                            wytrwałość i determinacja, aby ostatecznie to klient był usatysfakcjonowany i zadowolony z
+                            wykonanej pracy.</p>
+                        <div class="d-flex justify-content-around align-items-center aboutme-btn">
+                            <p>Zapraszam serdecznie do współpracy.</p>
+                            <a class="btn btn-primary px-5 ms-5" href="#contact" role="button">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner text-light text-center">
+                    <div class="carousel-item carousel-img-one active">
+                        <div
+                            class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+                            <p class="display-2">Wykopy</p>
+                        </div>
+                        <div class="hero-shadow"></div>
+                    </div>
+                    <div class="carousel-item carousel-img-two">
+                        <div
+                            class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+                            <p class="display-2">Studnie</p>
+                        </div>
+                        <div class="hero-shadow"></div>
+                    </div>
+                    <div class="carousel-item carousel-img-three">
+                        <div
+                            class="carousel-caption h-100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+                            <p class="display-2">Przyłącza</p>
+                        </div>
+                        <div class="hero-shadow"></div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="services" class="services py-5 border-top">
+            <div class="container">
+                <h1 class="text-center text-lg-start">Zakres usług</h1>
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-faucet-drip fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">instalacje wodno-kanalizacyjne
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-droplet fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">szamba, oczyszczalnie ścieków
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-globe fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">niwelacje terenu</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-road fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">przygotowanie terenu pod drogi,
+                                    chodniki, rowy</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-arrows-down-to-line fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">utwardzanie terenu</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-fire-flame-simple fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">sieci gazowe</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-trowel fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">iinne prace ziemne</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-services h-100">
+                            <i class="fa-solid fa-screwdriver-wrench fa-fade card-img-top text-center my-3"></i>
+                            <div class="card-body">
+                                <h5 class="card-title card-title-services text-center">pomoc w awariach</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects py-5 border-top">
+            <div class="container">
+                <h1 class="text-center text-lg-start">Galeria</h1>
+                <div class="row row-cols-md-2 row-cols-lg-3">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-dark text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/11.jpg" data-lightbox="gallery"
+                                        data-title="Budowa sieci"><img src="./img/projects/thumb11.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa sieci</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-primary text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/14.jpg" data-lightbox="gallery"
+                                        data-title="Budowa sieci"><img src="./img/projects/thumb14.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa sieci</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-dark text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/19.jpg" data-lightbox="gallery"
+                                        data-title="Budowa sieci"><img src="./img/projects/thumb19.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa sieci</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-primary text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/18.jpg" data-lightbox="gallery"
+                                        data-title="Budowa sieci"><img src="./img/projects/thumb18.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa sieci</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-dark text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/1.jpg" data-lightbox="gallery"
+                                        data-title="Budowa przyłączy"><img src="./img/projects/thumb1.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa przyłączy</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-primary text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <<a href="./img/projects/3.jpg" data-lightbox="gallery"
+                                        data-title="Budowa przyłączy"><img src="./img/projects/thumb3.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa przyłączy</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-dark text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/20.jpg" data-lightbox="gallery"
+                                        data-title="Budowa przyłączy"><img src="./img/projects/thumb20.jpg"
+                                            alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Budowa przyłączy</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-primary text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/15.jpg" data-lightbox="gallery" data-title="Awarie"><img
+                                            src="./img/projects/thumb15.jpg" alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Awarie</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card p-4 mb-3 bg-dark text-light">
+                            <div class="row g-0">
+                                <div class="col-8 d-flex justify-content-center align-items-center card-div-img">
+                                    <a href="./img/projects/16.jpg" data-lightbox="gallery" data-title="Awarie"><img
+                                            src="./img/projects/thumb16.jpg" alt="miniatura"></a>
+                                </div>
+                                <div class="col-4 d-flex justify-content-center align-items-center">
+                                    <div class="card-body">
+                                        <h3 class="card-title ms-2">Awarie</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="src/jquery-3.6.4.min.js"></script>
+    <script src="dist/js/lightbox.js"></script>
+
+
+    <script>
+        const nav = document.querySelector('.navbar-collapse')
+
+        document.addEventListener('click', () => {
+            if (nav.classList.contains('show')) {
+                nav.classList.remove('show')
+            }
+        })
+    </script>
+</body>
+
+</html>
