@@ -142,3 +142,20 @@ nav {
   font-size: 2rem;
   font-weight: bold;
 }
+
+/* contact section */
+
+.contact .card-header i {
+  font-size: 3rem;
+  color: white;
+}
+
+.contact h5 {
+  font-size: 2.2rem;
+}
+
+/* footer */
+
+footer {
+  font-size: 1.6rem;
+}
