@@ -11,7 +11,8 @@ html {
 
 body {
   font-family: "Oswald", sans-serif;
-  background-color: #f8f8f8;
+  background: #c9ccd3;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 [id] {
@@ -93,6 +94,7 @@ nav {
 
 .aboutme-btn .btn {
   font-size: 2.4rem;
+  box-shadow: 0 0 15px #212529;
 }
 
 /* carousel */
@@ -145,6 +147,10 @@ nav {
 
 /* contact section */
 
+.card-contact {
+  box-shadow: 0 0 15px #212529;
+}
+
 .contact .card-header i {
   font-size: 3rem;
   color: white;
@@ -152,6 +158,12 @@ nav {
 
 .contact h5 {
   font-size: 2.2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 300px;
+  box-shadow: 0 0 15px #212529;
 }
 
 /* footer */
